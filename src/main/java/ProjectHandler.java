@@ -105,7 +105,7 @@ public class ProjectHandler {
 
 
     public void findTickets(){
-        findTickets(-1);
+        findTickets(Main.github_ticket_num_raw);
     }
 
 
