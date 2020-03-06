@@ -1,0 +1,87 @@
+Abstraction
+Refinement
+Modularity
+Architecture
+Control Hierarchy
+Structural Partitioning
+Data Structure
+Software Procedure
+Information Hiding
+Compatibility
+Extensibility
+Modularity
+Fault-tolerance
+Maintainability
+Reliability
+durability
+Reusability
+Robustness
+Security
+Usability
+Performance
+Portability
+Scalability
+Unified Modeling Language
+UML
+Flowchart
+Design
+Build
+Framework
+Code Smell
+Technical Debt
+Tech debt
+Anti Pattern
+Modeling Language
+Design Pattern
+Abstract Factory Design Pattern
+Abstract factory pattern
+Builder Design Pattern
+Builder pattern
+Factory Method Design Pattern
+Factory pattern
+Object Pool Design Pattern
+Object pool pattern
+Prototype Design Pattern
+Prototype pattern
+Singleton Design Pattern
+Singleton pattern
+Adapter Design Pattern
+Adapter pattern
+Bridge Design Pattern
+Bridge pattern
+Composite Design Pattern
+Composite pattern
+Decorator Design Pattern
+Decorator pattern
+Facade Design Pattern
+Facade pattern
+Flyweight Design Pattern
+Flyweight pattern
+Private Class Data Design Pattern
+Private class data pattern
+Proxy Design Pattern
+Proxy pattern
+Chain of responsibility Design Pattern
+Chain of responsibility pattern
+Command Design Pattern
+Command pattern
+Interpreter Design Pattern
+Interpreter pattern
+Iterator Design Pattern
+Iterator pattern
+Mediator Design Pattern
+Mediator pattern
+Memento Design Pattern
+Memento pattern
+Null Object Design Pattern
+Null object pattern
+Observer Design Pattern
+Observer pattern
+State Design Pattern
+State pattern
+Strategy Design Pattern
+Strategy pattern
+Template method Design Pattern
+Template method pattern
+Visitor Design Pattern
+Visitor pattern
