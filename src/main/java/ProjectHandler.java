@@ -51,7 +51,7 @@ public class ProjectHandler {
         for (Integer ticketNum : tickets){
             //build url
             String url = URIBuilder.getTicketURL(ticketNum);
-            process(ticketNum, url);
+            process(ticketNum, url);;
         }
     }
 

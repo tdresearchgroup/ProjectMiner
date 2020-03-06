@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e0f1df-b37d-4bff-8194-9c89c6e42179" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSONResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KeywordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RESTClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/URIBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/design_keywords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,8 +43,8 @@
       <file leaf-file-name="ProjectHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProjectHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="10" selection-end-line="13" />
+            <state relative-caret-position="160">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/URIBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProjectHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/RESTClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProjectHandler.java" />
       </list>
     </option>
   </component>
@@ -198,42 +190,6 @@
               <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="accumulator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="accumulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="accumulator" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -253,11 +209,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Derek Reimanis\Documents\research\accumulator\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Derek Reimanis\Documents\research\accumulator" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Derek Reimanis\Documents\research\accumulator\src\main\resources" />
       <recent name="C:\Users\Derek Reimanis\Documents\research\accumulator" />
     </key>
   </component>
@@ -357,10 +313,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49646000" />
+    <option name="totallyTimeSpent" value="49695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="6" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -787,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ProjectHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="10" selection-end-line="13" />
+        <state relative-caret-position="160">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
