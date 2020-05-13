@@ -72,6 +72,9 @@ public class ProjectHandler {
      * @throws Exception THIS IS IMPORTANT BECAUSE THE EXCEPTION WILL BE THROWN IF WE HIT THE #REQUESTS/HOUR LIMIT
      */
     private void process(int ticketNum, String url) throws Exception{
+        if (ticketNum % 50 == 0){
+            System.out.println("Processing ticket: " + ticketNum);
+        }
         JSONObject jsonObject = getJSONFromSend(url);
         //I need to make sure this is closed first.
         String state = (String)jsonObject.get("state");
@@ -102,7 +105,7 @@ public class ProjectHandler {
         int keywordCount = 0;
         for (String keyword : keywords){
             if (ArrayUtils.contains(individualText, keyword.toLowerCase())){
-                System.out.println("Got a hit, matched ticket #: " + ticketNum + " with body: " + body + " to keyword: " + keyword);
+                System.out.println("Got a hit, matched ticket #: " + ticketNum);// + " with body: " + body + " to keyword: " + keyword);
                 keywordCount++;
             }
         }
@@ -135,13 +138,13 @@ public class ProjectHandler {
     private void fillTickets(int maxSize){
         tickets = new ArrayList<>();
         //
-        for (int i = maxSize-59; i <= maxSize; i++){
-            tickets.add(i);
-        }
-        //for when we don't have to worry about 60 most recent tickets.
-//        for (int i = 1; i <= maxSize; i++){
+//        for (int i = maxSize-59; i <= maxSize; i++){
 //            tickets.add(i);
 //        }
+        //for when we don't have to worry about 60 most recent tickets.
+        for (int i = 1; i <= maxSize; i++){
+            tickets.add(i);
+        }
     }
 
     private void output(){

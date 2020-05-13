@@ -4,6 +4,9 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 public class JSONResponse {
 
     /***
@@ -14,6 +17,16 @@ public class JSONResponse {
     @Getter
     private JSONObject response;
     private JSONParser parser = new JSONParser();
+
+    public JSONResponse(InputStream inputs){
+        try{
+            this.response = (JSONObject) parser.parse(new InputStreamReader(inputs, "UTF-8"));
+
+        }catch (Exception e){
+            System.out.println("error parsing inputstream response to JSON");
+            e.printStackTrace();
+        }
+    }
 
     public JSONResponse(String response){
         try{
