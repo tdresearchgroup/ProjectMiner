@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8e0f1df-b37d-4bff-8194-9c89c6e42179" name="Default" comment="first commit to origin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nonZero_output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/nonZero_output.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runnable/accumulator-1.0-SNAPSHOT-jar-with-dependencies.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JSONResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JSONResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RESTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RESTClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/accumulator-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JSONResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JSONResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProjectHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RESTClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RESTClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zero_output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/zero_output.csv" afterDir="false" />
-    </list>
+    <list default="true" id="f8e0f1df-b37d-4bff-8194-9c89c6e42179" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +60,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="-104">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -163,6 +148,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Derek Reimanis &lt;derek.reimanis@gmail.com&gt;" />
         <option value="Derek Reimanis" />
         <option value="Derek" />
       </list>
@@ -380,12 +366,20 @@
       <workItem from="1584462765150" duration="3704000" />
       <workItem from="1584710184162" duration="1193000" />
       <workItem from="1585834627821" duration="8000" />
-      <workItem from="1589382847539" duration="2516000" />
+      <workItem from="1589382847539" duration="2773000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed oath! Thanks Wes!">
+      <created>1589385582224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589385582224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74468000" />
+    <option name="totallyTimeSpent" value="74725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -414,8 +408,8 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32963374" />
       <window_info anchor="bottom" id="Sequence" order="1" />
       <window_info anchor="bottom" id="CheckStyle" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49946696" visible="true" weight="0.3263041" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.16577825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49946696" visible="true" weight="0.3263041" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.16577825" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="15" />
@@ -462,7 +456,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit to origin" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit to origin" />
+    <MESSAGE value="fixed oath! Thanks Wes!" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed oath! Thanks Wes!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+        <state relative-caret-position="-104">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
