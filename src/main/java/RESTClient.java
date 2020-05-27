@@ -26,7 +26,7 @@ public class RESTClient {
      * @return
      */
     public JSONResponse ticketRequestRunner(String urlString){
-        String curlHeader = "curl -H \"Authorization: token 3291f1efbafeb9fc4e6362b1c6d799f2fd109960\" ";
+        String curlHeader = "curl -H \"Authorization: token " + Main.github_access_token + "\" ";
         urlString = curlHeader + urlString;
         JSONResponse jsonResponse = null;
         try{

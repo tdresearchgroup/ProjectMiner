@@ -72,32 +72,36 @@ public class ProjectHandler {
      * @throws Exception THIS IS IMPORTANT BECAUSE THE EXCEPTION WILL BE THROWN IF WE HIT THE #REQUESTS/HOUR LIMIT
      */
     private void process(int ticketNum, String url) throws Exception{
-        if (ticketNum % 50 == 0){
-            System.out.println("Processing ticket: " + ticketNum);
-        }
-        JSONObject jsonObject = getJSONFromSend(url);
-        //I need to make sure this is closed first.
-        String state = (String)jsonObject.get("state");
-        if (state == null || !state.equals("closed")){
-            return;
-        }
-        String body = (String)jsonObject.get("body");
-
-        DateTimeFormatter format = DateTimeFormat.forPattern("YYYY-MM-dd'T'HH:mm:SSZ");
-
-        DateTime openDate = format.parseDateTime((String)jsonObject.get("created_at"));
-        DateTime closeDate = format.parseDateTime((String)jsonObject.get("closed_at"));
-
         try {
-            //sleep so github doesn't think im ddosing them, though realistically, this isn't necessary
-            Thread.sleep(50);
+            if (ticketNum % 50 == 0){
+                System.out.println("Processing ticket: " + ticketNum);
+            }
+            JSONObject jsonObject = getJSONFromSend(url);
+            //I need to make sure this is closed first.
+            String state = (String)jsonObject.get("state");
+            if (state == null || !state.equals("closed")){
+                return;
+            }
+            String body = (String)jsonObject.get("body");
+            if (body != null) {
+
+                DateTimeFormatter format = DateTimeFormat.forPattern("YYYY-MM-dd'T'HH:mm:SSZ");
+
+                DateTime openDate = format.parseDateTime((String) jsonObject.get("created_at"));
+                DateTime closeDate = format.parseDateTime((String) jsonObject.get("closed_at"));
+
+                //sleep so github doesn't think im ddosing them, though realistically, this isn't necessary
+                Thread.sleep(50);
+
+                findKeywords(ticketNum, body, openDate, closeDate);
+            }
+
         }catch (InterruptedException e){
             e.printStackTrace();
         }
-        findKeywords(ticketNum, body, openDate, closeDate);
     }
 
-    private void findKeywords(int ticketNum, String body, DateTime openDate, DateTime closeDate){
+    private void findKeywords(int ticketNum, String body, DateTime openDate, DateTime closeDate) throws Exception{
         //break up body
         body = body.toLowerCase();
         String[] individualText = body.split(" ");
@@ -120,9 +124,8 @@ public class ProjectHandler {
 
 
     public void findTickets(){
-        findTickets(Main.github_ticket_num_raw);
+        findTickets(Main.github_ticket_end_num);
     }
-
 
     public void findTickets(int ticketNum){
         String baseURL = URIBuilder.getBaseURL();
@@ -142,7 +145,7 @@ public class ProjectHandler {
 //            tickets.add(i);
 //        }
         //for when we don't have to worry about 60 most recent tickets.
-        for (int i = 1; i <= maxSize; i++){
+        for (int i = Main.github_ticket_start_num; i <= Main.github_ticket_end_num; i++){
             tickets.add(i);
         }
     }
@@ -178,6 +181,7 @@ public class ProjectHandler {
             }
             zero.append(stringBuilder.toString());
             zero.close();
+            System.out.println("Output Successful");
 
             //output all fields
         }catch (Exception e){
