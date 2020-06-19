@@ -1,7 +1,8 @@
 # Project Miner
 A quick set of java tools to mine GitHub repositories for design-related tickets
 <br>
-
+<br>
+<br>
 
 ## Getting Started
 
