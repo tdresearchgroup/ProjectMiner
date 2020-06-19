@@ -106,7 +106,7 @@ In ProjectHandler.java, line 145:
 ```
 for (int i = AAA; i <= BBB; i++)
 ```
-"AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the Remaining Rate Limit of every hour.<br>
+"AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the 5000 rate limit per hour given by GitHub.<br>
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 <br>
 <br>
