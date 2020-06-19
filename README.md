@@ -31,8 +31,8 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
 https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/<br>
 * *Other Authentication Methods*<br>
 https://developer.github.com/v3/auth/#basic-authentication<br>
+<br>
 
----
 
 ## How to Run
 
@@ -52,6 +52,7 @@ https://github.com/tdresearchgroup/projectminer.git
 Note: There is another earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
       which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization. 
+<br>
 
 ### Setting Up the Project Miner:
 
@@ -86,7 +87,8 @@ github_ticket_num_raw = 57332
 ```
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
 
-**Last**, run the project! 
+**Last**, run the program! 
+<br>
 
 ### After the successful run:<br>
 zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.<br>
@@ -100,6 +102,8 @@ for (int i = AAA; i <= BBB; i++)
 ```
 "AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit.
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
+<br>
+
 
 ## Final Data Organizing
 All data saved in the all the zeroOup.csv and nonZeroOutput.csv they can be either combined together by each project or leave asstand-alone files to be read for version conversion.<br>
