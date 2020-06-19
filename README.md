@@ -1,5 +1,6 @@
 # Project Miner
 A quick set of java tools to mine GitHub repositories for design-related tickets
+<br>
 
 
 ## Getting Started
@@ -103,7 +104,7 @@ for (int i = AAA; i <= BBB; i++)
 "AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit.
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 <br>
-
+<br>
 
 ## Final Data Organizing
 All data saved in the all the zeroOup.csv and nonZeroOutput.csv they can be either combined together by each project or leave asstand-alone files to be read for version conversion.<br>
