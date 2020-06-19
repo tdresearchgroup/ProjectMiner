@@ -89,7 +89,7 @@ github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project.<br>
-For example for the project mentioned above, check out the following link：
+For example for the project mentioned above, check out the following link：<br>
 https://github.com/elastic/elasticsearch/issues
 
 **Last**, run the program! 
