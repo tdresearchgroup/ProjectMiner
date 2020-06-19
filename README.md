@@ -49,9 +49,9 @@ Or use the GitHub Desktop to clone a repository to a designated path by entering
 ```
 https://github.com/tdresearchgroup/projectminer.git
 ```
-Note: There is a earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
+Note: There is another earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX
-      which can be used as an alternative if all details of every issue needs to printed to console, ask administrator for access authorization. 
+      which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization. 
 
 **Setting Up the Project Miner**:
 
@@ -59,7 +59,7 @@ Note: There is a earlier version called "projectminer - ver.2020.05.17" saved on
 
 ```
 1. JDK Package needs to be selected if necessary when setting up as a new project.
-2. File location of "design_keywords.txt" needs to be fixed if necessary.
+2. File location of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
 3. 
 ```
 Keep pressing "Enter" until you see "Is this OK? (yes)"
@@ -76,6 +76,17 @@ npm i nodemailer
 ```
 Note: if the warning "Permission Denied" is shown, has to re-run command line tool(s)
       as an administrator or Sudo in Mac Os as indicated previously and repeat the above steps
+
+
+For more details of GitHub rate limits, check out the following link <br>
+https://developer.github.com/v3/#rate-limiting
+
+In terminal, use below command line order to check remaining rate limit within the same hour.
+```
+curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
+```
+"......" is the token that is not expired and ready to be used.
+
 
 **To Start the Application**:
 
