@@ -1,4 +1,4 @@
-# projectminer
+# Project Miner
 A quick set of java tools to mine GitHub repositories for design-related tickets
 
 
@@ -43,24 +43,19 @@ Or use the GitHub Desktop to clone a repository to a designated path by entering
 https://github.com/tdresearchgroup/projectminer.git
 ```
 
-Navigate to the **cmpt370-fantastic-4** folder that contains **app.js** in the the command line tool(s)
+**Setting Up the Project Miner**:
+
+**First**, check and make sure the program should run free of errors:
 
 ```
-cmpt370-fantastic-4/
-```
-
-**Setting Up the Required Node Modules**:
-
-**First**, use npm to create an empty package
-
-```
-npm init
+1. JDK 
+2. File location of "" should 
 ```
 Keep pressing "Enter" until you see "Is this OK? (yes)"
 
 Enter "yes" to continue
 
-**Second**, use npm to install the following requirements
+**Second**, copy and paste the ProjectMiner Token into  
 
 ```
 npm i sqlite3
