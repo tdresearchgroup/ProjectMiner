@@ -27,6 +27,13 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
                                               OR
                                               ---> Generate new token (needs to fill out the form)
 
+For more details of GitHub Authentication, check out below two links <br>
+Authorizing OAuth Apps
+https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
+Other Authentication Methods
+https://developer.github.com/v3/auth/#basic-authentication
+
+
 ### How to Run
 
 **Cloning the Project**:
@@ -92,6 +99,5 @@ it is local.
 
 ### Wiki
 
-For more details of how to obtain <br>
 
-https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
+
