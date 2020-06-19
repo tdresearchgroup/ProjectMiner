@@ -59,10 +59,10 @@ https://github.com/tdresearchgroup/projectminer.git
 
 ### Setting Up the Project Miner:
 
-**First**, check and make sure the program can run without errors:
+**First**, check and make sure the program can run without any error:
 
 1. JDK Package needs to be selected if necessary when setting up as a new project.
-2. File location of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
+2. File address of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
 3. Getters and Setters of ClosedTicketInfo may need to be fixed.
 
 **Second**, copy and paste the ProjectMiner Token into RESTClient.java, line 29:
