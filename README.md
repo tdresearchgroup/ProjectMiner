@@ -23,8 +23,8 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
      * *---> Personal access token*
      * *---> ProjectMiner Token<br>*
             *---> Regenerate token (if necessary)*<br>
-             *OR*<br>
-             *---> Generate new token (needs to fill out the form)*
+            *OR*<br>
+            *---> Generate new token (needs to fill out the form)*
 
 *For more details of GitHub Authentication, check out below two links* <br>
 * *Authorizing OAuth Apps*<br>
@@ -32,10 +32,11 @@ https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/<br
 * *Other Authentication Methods*<br>
 https://developer.github.com/v3/auth/#basic-authentication<br>
 
+---
 
-### How to Run
+## How to Run
 
-**Cloning the Project**:
+###Cloning the Project:
 
 Clone the git **master** branch using the command line tool(s)
 
@@ -52,7 +53,7 @@ Note: There is another earlier version called "projectminer - ver.2020.05.17" sa
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
       which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization. 
 
-**Setting Up the Project Miner**:
+###Setting Up the Project Miner:
 
 **First**, check and make sure the program can run without errors:
 
@@ -85,8 +86,9 @@ github_ticket_num_raw = 57332
 ```
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
 
+**Last**, run the project! 
 
-**After the successful run**:<br>
+###After the successful run:<br>
 zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.<br>
 Note: These two csv files MUST be moved to a different file directory after every run, otherwise they will be OVERWRITTEN in the next run.  
 
