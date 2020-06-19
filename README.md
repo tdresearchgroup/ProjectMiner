@@ -4,7 +4,7 @@ A quick set of java tools to mine GitHub repositories for design-related tickets
 
 ## Getting Started
 
-Instructions to get the project miner running on any machine with any platform of OS.
+Instructions to get the Project Miner running on any machine with any platform of OS.
 
 ### Prerequisites 
 
@@ -17,7 +17,7 @@ What must be obtained before runing the tool:
 ```
 Github Authentication: Personal Access Token
 ```
-Note: One has been generated using the account tdresearchgroup.
+Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
       Click (Top-right corner)profile picture ---> Setting 
                                               ---> (Bottom-left corner) Developer settings 
                                               ---> Personal access token
@@ -42,14 +42,18 @@ Or use the GitHub Desktop to clone a repository to a designated path by entering
 ```
 https://github.com/tdresearchgroup/projectminer.git
 ```
+Note: There is a earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
+      https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX
+      which can be used as an alternative if all details of every issue needs to printed to console, ask administrator for access authorization. 
 
 **Setting Up the Project Miner**:
 
 **First**, check and make sure the program should run free of errors:
 
 ```
-1. JDK 
-2. File location of "" should 
+1. JDK Package needs to be selected if necessary when setting up as a new project.
+2. File location of "design_keywords.txt" needs to be fixed if necessary.
+3. 
 ```
 Keep pressing "Enter" until you see "Is this OK? (yes)"
 
