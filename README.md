@@ -26,13 +26,13 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
 
 For more details of GitHub Authentication, check out below two links <br>
 *Authorizing OAuth Apps*<br>
-https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
+https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/<br>
 *Other Authentication Methods*<br>
-https://developer.github.com/v3/auth/#basic-authentication
+https://developer.github.com/v3/auth/#basic-authentication<br>
 
 
 ### How to Run
-
+-----------------------------
 **Cloning the Project**:
 
 Clone the git **master** branch using the command line tool(s)
@@ -97,6 +97,6 @@ for (int i = AAA; i <= BBB; i++)
 "AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit.
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 
-**Final Data Organizing**
-All data saved in the all the zeroOup.csv and nonZeroOutput.csv they can be either combined together by each project or leave asstand-alone files to be read for version conversion.
+## Final Data Organizing
+All data saved in the all the zeroOup.csv and nonZeroOutput.csv they can be either combined together by each project or leave asstand-alone files to be read for version conversion.<br>
 Note: For version conversion, contact Derek Reimanis <derek.reimanis@gmail.com> for further details.
