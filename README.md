@@ -15,34 +15,32 @@ IntelliJ IDE with up-to-date JDK package installed
 ```
 What must be obtained before runing the tool:
 ```
-Github Authentication Token
+Github Authentication: Personal Access Token
 ```
-
-### 
-Initially, download and install nodejs
-
-```
-https://nodejs.org/en/download/
-```
+Note: One has been generated using the account tdresearchgroup.
+      Click (Top-right corner)profile picture ---> Setting 
+                                              ---> (Bottom-left corner) Developer settings 
+                                              ---> Personal access token
+                                              ---> ProjectMiner Token
+                                                   ---> Regenerate token (if necessary)
+                                              
+                                              OR
+                                              ---> Generate new token (needs to fill out the form)
 
 ### How to Run
-
-Command line tool(s) must be used: Windows PowerShell or Mac Terminal
-
-Note: Must run the command line tool(s) as an administrator or Sudo in Mac OS
 
 **Cloning the Project**:
 
 Clone the git **master** branch using the command line tool(s)
 
 ```
-git clone https://git.cs.usask.ca/yol474/cmpt370-fantastic-4.git
+git clone https://github.com/tdresearchgroup/projectminer.git
 ```
 
 Or use the GitHub Desktop to clone a repository to a designated path by entering the below URL
 
 ```
-https://git.cs.usask.ca/yol474/cmpt370-fantastic-4.git
+https://github.com/tdresearchgroup/projectminer.git
 ```
 
 Navigate to the **cmpt370-fantastic-4** folder that contains **app.js** in the the command line tool(s)
