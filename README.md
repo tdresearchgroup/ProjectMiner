@@ -27,7 +27,7 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
             *OR*<br>
             *---> Generate new token (needs to fill out the form)*
 
-*For more details of GitHub Authentication, check out below two links* <br>
+*For more details of GitHub Authentication, check out the following two links* <br>
 * *Authorizing OAuth Apps*<br>
 https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/<br>
 * *Other Authentication Methods*<br>
