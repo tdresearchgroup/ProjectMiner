@@ -15,6 +15,21 @@ What must be obtained before runing the tool:
 - Github Authentication: Personal Access Token
 
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
+* *FURPS*:
+     * **F**unctionality
+     * **U**sability
+     * **R**eliability
+     * **P**erformance
+     * **S**upportability
+* *The Plus +*:
+     * Design constraints
+     * Implementation requirements
+     * Interface requirements
+     * Physical requirements
+
+
+
+
       --->Click profile picture (Top-right corner)
       ---> Setting
       ---> Developer settings (Bottom-left corner)
