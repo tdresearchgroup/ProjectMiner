@@ -15,28 +15,14 @@ What must be obtained before runing the tool:
 - Github Authentication: Personal Access Token
 
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
-* *FURPS*:
-     * **F**unctionality
-     * **U**sability
-     * **R**eliability
-     * **P**erformance
-     * **S**upportability
-* *The Plus +*:
-     * Design constraints
-     * Implementation requirements
-     * Interface requirements
-     * Physical requirements
-
-
-
-
-      --->Click profile picture (Top-right corner)
-      ---> Setting
-      ---> Developer settings (Bottom-left corner)
-      ---> Personal access token
-      ---> ProjectMiner Token
-             ---> Regenerate token (if necessary)
-             OR
+* *How to obtain a Personal access token*:
+     * --->Click profile picture (Top-right corner)
+     * ---> Setting
+     * ---> Developer settings (Bottom-left corner)
+     * ---> Personal access token
+     * ---> ProjectMiner Token<br>
+            ---> Regenerate token (if necessary)<br>
+             OR<br>
              ---> Generate new token (needs to fill out the form)
 
 *For more details of GitHub Authentication, check out below two links* <br>
@@ -103,7 +89,7 @@ Note: the raw ticktet number can be the latest issue number of the repo, this ca
 zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.<br>
 Note: These two csv files MUST be moved to a different file directory after every run, otherwise they will be OVERWRITTEN in the next run.  
 
-In addition, in order to speed up the fetching process, check the rate limit remaining in the same hour and proceed as described below before every run.
+In addition, in order to speed up the fetching process, check the rate limit remaining and proceed as described below before every run.
 
 In ProjectHandler.java, line 145:
 ```
