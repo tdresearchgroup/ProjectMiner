@@ -55,6 +55,7 @@ https://github.com/tdresearchgroup/projectminer.git
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
       which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization.* 
 <br>
+<br>
 
 ### Setting Up the Project Miner:
 
@@ -90,6 +91,7 @@ github_ticket_num_raw = 57332
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
 
 **Last**, run the program! 
+<br>
 <br>
 
 ### After the successful run:<br>
