@@ -7,6 +7,7 @@ A quick set of java tools to mine GitHub repositories for design-related tickets
 ## Getting Started
 
 Instructions to get the Project Miner running on any machine with any platform of OS.
+<br>
 
 ### Prerequisites 
 
@@ -37,6 +38,7 @@ https://developer.github.com/v3/auth/#basic-authentication<br>
 
 
 ## How to Run
+<br>
 
 ### Cloning the Project:
 
