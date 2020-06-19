@@ -51,9 +51,9 @@ Or use the GitHub Desktop to clone a repository to a designated path by entering
 ```
 https://github.com/tdresearchgroup/projectminer.git
 ```
-Note: There is another earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
+*Note: There is another earlier version called "**projectminer - ver.2020.05.17**" saved on Google Drive: 
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
-      which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization. 
+      which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization.* 
 <br>
 
 ### Setting Up the Project Miner:
@@ -94,7 +94,7 @@ Note: the raw ticktet number can be the latest issue number of the repo, this ca
 
 ### After the successful run:<br>
 zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.<br>
-Note: These two csv files MUST be moved to a different file directory after every run, otherwise they will be OVERWRITTEN in the next run.  
+Note: These two csv files **MUST** be moved to a different file directory after every run, otherwise they will be **OVERWRITTEN** in the next run.  
 
 In addition, in order to speed up the fetching process, check the rate limit remaining and proceed as described below before every run.
 
