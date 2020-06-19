@@ -77,24 +77,31 @@ curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 For more details of GitHub rate limits, check out the following link <br>
 https://developer.github.com/v3/#rate-limiting
 
-**Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources"
+**Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources" for the desired project to be fetched.
 For example,
 ```
 github_repo_owner = elastic
 github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
-(the raw ticktet number can be the latest issue number of the repo)
+(the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for this project, https://github.com/elastic/elasticsearch/issues)
 
 
 **After the successful run**:
 zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.
-Note: These two csv files should be moved to a different file directory after every run, otherwise they will be overwritten in the next run.  
+Note: These two csv files MUST be moved to a different file directory after every run, otherwise they will be OVERWRITTEN in the next run.  
 
-In addition, in order to speed up the fetching process, check 
+In addition, in order to speed up the fetching process, check the rate limit remaining in the same hour and proceed as described below before every run.
 
 In ProjectHandler.java, line 145:
 ```
 for (int i = AAA; i <= BBB; i++)
 ```
 "AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit
+
+Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
+
+**Final Data Organizing**
+All data saved in the all the 
+They can be either combined together by each project or leave as a stand-alone file to be read for version conversion.
+Note: For version conversion, contact Derek .... 
