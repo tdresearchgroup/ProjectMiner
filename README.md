@@ -25,10 +25,10 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
              ---> Generate new token (needs to fill out the form)
 
 For more details of GitHub Authentication, check out below two links <br>
-*Authorizing OAuth Apps<br>
+*Authorizing OAuth Apps*<br>
 https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
-Other Authentication Methods<br>
-https://developer.github.com/v3/auth/#basic-authentication*
+*Other Authentication Methods*<br>
+https://developer.github.com/v3/auth/#basic-authentication
 
 
 ### How to Run
