@@ -32,7 +32,7 @@ https://developer.github.com/v3/auth/#basic-authentication<br>
 
 
 ### How to Run
------------------------------
+
 **Cloning the Project**:
 
 Clone the git **master** branch using the command line tool(s)
