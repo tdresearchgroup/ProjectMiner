@@ -23,9 +23,9 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
      * *---> Developer settings (Bottom-left corner)*
      * *---> Personal access token*
      * *---> ProjectMiner Token<br>*
-            .    *---> Regenerate token (if necessary)*<br>
-                 *OR*<br>
-            .    *---> Generate new token (needs to fill out the form)*<br>
+       a *---> Regenerate token (if necessary)*<br>
+         *OR*<br>
+       b *---> Generate new token (needs to fill out the form)*<br>
 
 *For more details of GitHub Authentication, check out the following two links* <br>
 * *Authorizing OAuth Apps*<br>
