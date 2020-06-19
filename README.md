@@ -78,7 +78,7 @@ curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 ```
 "......" is the token that is not expired and ready to be used.
 
-*For more details of GitHub rate limits, check out the following link* <br>
+*For more details of GitHub rate limits, check out the following link：* <br>
 https://developer.github.com/v3/#rate-limiting
 
 **Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources" for the desired project to be fetched.<br>
@@ -89,7 +89,8 @@ github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project.<br>
-For example for the project mentioned above, check this URL ---> https://github.com/elastic/elasticsearch/issues
+For example for the project mentioned above, check out the following link：
+https://github.com/elastic/elasticsearch/issues
 
 **Last**, run the program! 
 <br>
