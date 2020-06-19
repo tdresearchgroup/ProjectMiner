@@ -19,7 +19,7 @@ Github Authentication: Personal Access Token
 ```
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
       Click (Top-right corner)profile picture ---> Setting 
-                                              ---> (Bottom-left corner) Developer settings 
+                                              ---> Developer settings (Bottom-left corner)
                                               ---> Personal access token
                                               ---> ProjectMiner Token
                                                    ---> Regenerate token (if necessary)
@@ -55,7 +55,7 @@ Note: There is another earlier version called "projectminer - ver.2020.05.17" sa
 
 **Setting Up the Project Miner**:
 
-**First**, check and make sure the program should run free of errors:
+**First**, check and make sure the program can run without errors:
 
 1. JDK Package needs to be selected if necessary when setting up as a new project.
 2. File location of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
@@ -68,7 +68,7 @@ Note: There is another earlier version called "projectminer - ver.2020.05.17" sa
 ```
 "......" should be replaced by the token previously generated.
 
-In terminal, use below command line order to check remaining rate limit within the same hour.
+In terminal, use below command line order to check remaining rate limit for the first time.
 ```
 curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 ```
@@ -84,7 +84,7 @@ github_repo_owner = elastic
 github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
-(the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for this project, https://github.com/elastic/elasticsearch/issues)
+(the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project, https://github.com/elastic/elasticsearch/issues)
 
 
 **After the successful run**:
@@ -97,11 +97,10 @@ In ProjectHandler.java, line 145:
 ```
 for (int i = AAA; i <= BBB; i++)
 ```
-"AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit
+"AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit.
 
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 
 **Final Data Organizing**
-All data saved in the all the 
-They can be either combined together by each project or leave as a stand-alone file to be read for version conversion.
-Note: For version conversion, contact Derek .... 
+All data saved in the all the zeroOup.csv and nonZeroOutput.csv they can be either combined together by each project or leave asstand-alone files to be read for version conversion.
+Note: For version conversion, contact Derek Reimanis <derek.reimanis@gmail.com> for further details.
