@@ -81,14 +81,15 @@ curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 *For more details of GitHub rate limits, check out the following link* <br>
 https://developer.github.com/v3/#rate-limiting
 
-**Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources" for the desired project to be fetched.
+**Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources" for the desired project to be fetched.<br>
 For example,
 ```
 github_repo_owner = elastic
 github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
-Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
+Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project.<br>
+For example for the project mentioned above, check this URL ---> https://github.com/elastic/elasticsearch/issues
 
 **Last**, run the program! 
 <br>
