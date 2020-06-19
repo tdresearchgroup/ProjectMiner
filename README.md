@@ -1,20 +1,24 @@
 # projectminer
-A quick set of java tools to mine github repositories for design-related tickets
+A quick set of java tools to mine GitHub repositories for design-related tickets
 
 
 ## Getting Started
 
-Instructions to get the web application running on a local machine.
+Instructions to get the project miner running on any machine with any platform of OS.
 
 ### Prerequisites 
 
-What must be installed to run the software:
+What must be installed to run the tool:
 
 ```
-nodejs, sqlite3, express, ejs, nodemailer
+IntelliJ IDE with up-to-date JDK package installed
+```
+What must be obtained before runing the tool:
+```
+Github Authentication Token
 ```
 
-### Installing
+### 
 Initially, download and install nodejs
 
 ```
@@ -91,6 +95,6 @@ it is local.
 
 ### Wiki
 
-Features details for all milestones and group members<br>
+For more details of how to obtain <br>
 
-https://git.cs.usask.ca/yol474/cmpt370-fantastic-4/wikis
+https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/
