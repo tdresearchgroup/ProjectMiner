@@ -52,7 +52,8 @@ https://github.com/tdresearchgroup/projectminer.git
 ```
 *Note: There is another earlier version called "**projectminer - ver.2020.05.17**" saved on Google Drive: 
       https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
-      which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization.* 
+      which can be used as an alternative if all details of every issue needs to printed to console 
+      plus these details can be saved into a txt file for quicker access, ask administrator for access authorization.* 
 <br>
 <br>
 
