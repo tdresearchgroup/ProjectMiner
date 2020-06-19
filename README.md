@@ -9,23 +9,20 @@ Instructions to get the Project Miner running on any machine with any platform o
 ### Prerequisites 
 
 What must be installed to run the tool:
+- IntelliJ IDE with up-to-date JDK package installed
 
-```
-IntelliJ IDE with up-to-date JDK package installed
-```
 What must be obtained before runing the tool:
-```
-Github Authentication: Personal Access Token
-```
+- Github Authentication: Personal Access Token
+
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
-      Click (Top-right corner)profile picture ---> Setting 
-                                              ---> Developer settings (Bottom-left corner)
-                                              ---> Personal access token
-                                              ---> ProjectMiner Token
-                                                   ---> Regenerate token (if necessary)
-                                              
-                                              OR
-                                              ---> Generate new token (needs to fill out the form)
+      --->Click profile picture (Top-right corner)
+      ---> Setting
+      ---> Developer settings (Bottom-left corner)
+      ---> Personal access token
+      ---> ProjectMiner Token
+             ---> Regenerate token (if necessary)
+             OR
+             ---> Generate new token (needs to fill out the form)
 
 For more details of GitHub Authentication, check out below two links <br>
 Authorizing OAuth Apps
@@ -64,7 +61,7 @@ Note: There is another earlier version called "projectminer - ver.2020.05.17" sa
 **Second**, copy and paste the ProjectMiner Token into RESTClient.java, line 29:
 
 ```
-        String curlHeader = "curl -H \"Authorization: token ......\" ";
+String curlHeader = "curl -H \"Authorization: token ......\" ";
 ```
 "......" should be replaced by the token previously generated.
 
@@ -84,7 +81,7 @@ github_repo_owner = elastic
 github_repo_name = elasticsearch
 github_ticket_num_raw = 57332
 ```
-(the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project, https://github.com/elastic/elasticsearch/issues)
+Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
 
 
 **After the successful run**:
@@ -98,7 +95,6 @@ In ProjectHandler.java, line 145:
 for (int i = AAA; i <= BBB; i++)
 ```
 "AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit.
-
 Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 
 **Final Data Organizing**
