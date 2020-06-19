@@ -57,29 +57,16 @@ Note: There is another earlier version called "projectminer - ver.2020.05.17" sa
 
 **First**, check and make sure the program should run free of errors:
 
-```
 1. JDK Package needs to be selected if necessary when setting up as a new project.
 2. File location of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
-3. 
-```
-Keep pressing "Enter" until you see "Is this OK? (yes)"
+3. Getters and Setters of ClosedTicketInfo may need to be fixed.
 
-Enter "yes" to continue
-
-**Second**, copy and paste the ProjectMiner Token into  
+**Second**, copy and paste the ProjectMiner Token into RESTClient.java, line 29:
 
 ```
-npm i sqlite3
-npm i express
-npm i ejs
-npm i nodemailer
+        String curlHeader = "curl -H \"Authorization: token ......\" ";
 ```
-Note: if the warning "Permission Denied" is shown, has to re-run command line tool(s)
-      as an administrator or Sudo in Mac Os as indicated previously and repeat the above steps
-
-
-For more details of GitHub rate limits, check out the following link <br>
-https://developer.github.com/v3/#rate-limiting
+"......" should be replaced by the token previously generated.
 
 In terminal, use below command line order to check remaining rate limit within the same hour.
 ```
@@ -87,28 +74,27 @@ curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 ```
 "......" is the token that is not expired and ready to be used.
 
+For more details of GitHub rate limits, check out the following link <br>
+https://developer.github.com/v3/#rate-limiting
 
-**To Start the Application**:
-
-Run **app.js** using command line
-
+**Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources"
+For example,
 ```
-node app.js
+github_repo_owner = elastic
+github_repo_name = elasticsearch
+github_ticket_num_raw = 57332
 ```
+(the raw ticktet number can be the latest issue number of the repo)
 
-Application will be live on port 2020
 
-Enter below URL into your browser, **Google Chrome** recommended
+**After the successful run**:
+zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.
+Note: These two csv files should be moved to a different file directory after every run, otherwise they will be overwritten in the next run.  
 
+In addition, in order to speed up the fetching process, check 
+
+In ProjectHandler.java, line 145:
 ```
-localhost:2020/
+for (int i = AAA; i <= BBB; i++)
 ```
-
-If you would like a reference when booking a flight be sure to use a real email in the form.<br>
-The site may need to be reactivated to have the latest booking information since
-it is local.
-
-### Wiki
-
-
-
+"AAA" can be replaced by the last issue number read, and "BBB" can be replaced by the sum of "AAA"+ Remaining Rate Limit within the same hour to better utilize the of Remaining Rate Limit
