@@ -39,10 +39,10 @@ Note: One has been generated using the account tdresearchgroup, ask administrato
              OR
              ---> Generate new token (needs to fill out the form)
 
-For more details of GitHub Authentication, check out below two links <br>
-*Authorizing OAuth Apps*<br>
+*For more details of GitHub Authentication, check out below two links* <br>
+* *Authorizing OAuth Apps*<br>
 https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/<br>
-*Other Authentication Methods*<br>
+* *Other Authentication Methods*<br>
 https://developer.github.com/v3/auth/#basic-authentication<br>
 
 
@@ -62,7 +62,7 @@ Or use the GitHub Desktop to clone a repository to a designated path by entering
 https://github.com/tdresearchgroup/projectminer.git
 ```
 Note: There is another earlier version called "projectminer - ver.2020.05.17" saved on Google Drive: 
-      https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX
+      https://drive.google.com/drive/u/1/folders/1BVKyCyADc9X9NoTDEtp2tPg8GI2uPNWX<br>
       which can be used as an alternative if all details of every issue needs to printed to console and these details can be saved into a txt file for quicker access, ask administrator for access authorization. 
 
 **Setting Up the Project Miner**:
@@ -86,7 +86,7 @@ curl -H "Authorization: token ......" -X GET https://api.github.com/rate_limit
 ```
 "......" is the token that is not expired and ready to be used.
 
-For more details of GitHub rate limits, check out the following link <br>
+*For more details of GitHub rate limits, check out the following link* <br>
 https://developer.github.com/v3/#rate-limiting
 
 **Third**, setup correct owner, name and raw ticket number in config.properties in the directory called "resources" for the desired project to be fetched.
@@ -99,8 +99,8 @@ github_ticket_num_raw = 57332
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project, for example for this project,  https://github.com/elastic/elasticsearch/issues
 
 
-**After the successful run**:
-zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.
+**After the successful run**:<br>
+zeroOup.csv and nonZeroOutput.csv will be generated in the "src" directory.<br>
 Note: These two csv files MUST be moved to a different file directory after every run, otherwise they will be OVERWRITTEN in the next run.  
 
 In addition, in order to speed up the fetching process, check the rate limit remaining in the same hour and proceed as described below before every run.
