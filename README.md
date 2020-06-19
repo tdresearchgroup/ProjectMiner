@@ -13,17 +13,18 @@ What must be installed to run the tool:
 
 What must be obtained before runing the tool:
 - Github Authentication: Personal Access Token
+<br>
 
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
-* *How to obtain a Personal access token*:
-     * --->Click profile picture (Top-right corner)
-     * ---> Setting
-     * ---> Developer settings (Bottom-left corner)
-     * ---> Personal access token
-     * ---> ProjectMiner Token<br>
-            ---> Regenerate token (if necessary)<br>
-             OR<br>
-             ---> Generate new token (needs to fill out the form)
+* *How to obtain the Personal access token*:
+     * *--->Click profile picture (Top-right corner)*
+     * *---> Setting*
+     * *---> Developer settings (Bottom-left corner)*
+     * *---> Personal access token*
+     * *---> ProjectMiner Token<br>*
+            *---> Regenerate token (if necessary)*<br>
+             *OR*<br>
+             *---> Generate new token (needs to fill out the form)*
 
 *For more details of GitHub Authentication, check out below two links* <br>
 * *Authorizing OAuth Apps*<br>
