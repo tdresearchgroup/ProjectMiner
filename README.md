@@ -9,17 +9,17 @@ Instructions to get the Project Miner running on any machine with any platform o
 
 ### Prerequisites 
 
-What must be installed to run the tool:
-- IntelliJ IDE with up-to-date JDK package installed
+What must be installed to run Project Miner:
+- IntelliJ IDE or equivalent IDE with up-to-date JDK package installed
 
-What must be obtained before runing the tool:
+What must be obtained before running Project Miner:
 - Github Authentication: Personal Access Token
 <br>
 
 Note: One has been generated using the account tdresearchgroup, ask administrator for access authorization.
 * *How to obtain the Personal access token*:
      * *--->Click profile picture (Top-right corner)*
-     * *---> Setting*
+     * *---> Settings*
      * *---> Developer settings (Bottom-left corner)*
      * *---> Personal access token*
      * *---> ProjectMiner Token<br>*
@@ -62,7 +62,7 @@ https://github.com/tdresearchgroup/projectminer.git
 **First**, check and make sure the program can run without any error:
 
 1. JDK Package needs to be selected if necessary when setting up as a new project.
-2. File address of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary.
+2. File address of "design_keywords.txt" needs to be fixed in ProjectHandler.java if necessary (ideally store in same folder as ProjectHandler.java, then skipt this step)
 3. Getters and Setters of ClosedTicketInfo may need to be fixed.
 
 **Second**, copy and paste the ProjectMiner Token into RESTClient.java, line 29:
@@ -86,7 +86,7 @@ For example,
 ```
 github_repo_owner = elastic
 github_repo_name = elasticsearch
-github_ticket_num_raw = 57332
+github_ticket_num_raw = 57332 (e.g. last ticket number + 1)
 ```
 Note: the raw ticktet number can be the latest issue number of the repo, this can be confirmed by checking the actual URL of the project.<br>
 For example for the project mentioned above, check out the following link：<br>
