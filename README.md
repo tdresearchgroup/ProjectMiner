@@ -92,7 +92,7 @@ Note: the raw ticktet number can be the latest issue number of the repo, this ca
 For example for the project mentioned above, check out the following link：<br>
 https://github.com/elastic/elasticsearch/issues
 
-**Last**, run the program! 
+**Last**, run the program (ProjectHandler.java)! 
 <br>
 <br>
 
@@ -115,4 +115,4 @@ Last issue number read can be confirmed by checking the lastest zeroOutput.csv.
 
 ## Final Data Organizing
 All data saved in the all the zeroOutput.csv and nonZeroOutput.csv they can be either combined together by each project or leave as stand-alone files to be read for version conversion.<br>
-Note: For version conversion, please contact Derek Reimanis <derek.reimanis@gmail.com> for further details.
+Note: For version conversion, please contact administrator for further details.
